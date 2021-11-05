@@ -1,0 +1,10 @@
+.pokemon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-card:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 255, 0.151);
+}

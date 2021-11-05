@@ -1,0 +1,83 @@
+.pagination {
+  display: flex;
+  max-width: 90%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 800px) {
+  .pagination {
+    gap: 0.5rem;
+  }
+}
+
+.page-link {
+  color: #292d33;
+  font-size: 2rem;
+  height: 2rem;
+  width: 2rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link:hover {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: #fff;
+  border: 1px solid rgba(0, 0, 255, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .page-link {
+    font-size: 1.2rem;
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+}
+
+.btn {
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid rgba(0, 0, 255, 0.151);
+  border-radius: 50%;
+  background: rgba(0, 0, 255, 0.151);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: #fff;
+}
+
+.btn:hover .btn-icon {
+  stroke: #fff;
+}
+
+@media (max-width: 800px) {
+  .btn {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+.btn-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  stroke: #112a46;
+}
+
+.active {
+  border: 1px solid rgba(0, 0, 255, 0.151);
+  border-radius: 50%;
+  background: rgba(0, 0, 255, 0.151);
+  color: #292d33;
+}
