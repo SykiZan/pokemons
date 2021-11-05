@@ -47,7 +47,7 @@ const PokemonInfo = (props) => {
       <h2 className={classes["header"]}>MOVES</h2>
       <ul className={classes.moves}>
         {moves.map((move) => (
-          <div>{move}</div>
+          <li>{move}</li>
         ))}
       </ul>
     </>

@@ -14,15 +14,21 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   margin-bottom: 5rem;
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .stats {
-  width: 60%;
+  max-width: 60%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   justify-items: center;
 
   margin: 0 auto;
   margin-bottom: 2rem;
+  @media (max-width: 800px) {
+    max-width: 100%;
+  }
 }
 
 .header {

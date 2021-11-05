@@ -28,7 +28,6 @@
 .page-link:hover {
   background-color: rgba(0, 0, 255, 0.5);
   color: #fff;
-  border: 1px solid rgba(0, 0, 255, 0.5);
   border-radius: 50%;
   cursor: pointer;
 }
